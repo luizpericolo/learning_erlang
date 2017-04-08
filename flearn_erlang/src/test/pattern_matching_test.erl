@@ -11,9 +11,7 @@
 
 -include_lib("eunit/include/eunit.hrl").
 
--export([is_zero_zero_test/0, is_zero_negative_test/0, is_zero_positive_test/0,
-  xOr_true_false_test/0, xOr_false_true_test/0, xOr_false_false_test/0, xOr_true_true_test/0,
-  xOr2_true_false_test/0, xOr2_false_true_test/0, xOr2_false_false_test/0, xOr2_true_true_test/0]).
+-export([]).
 
 % Test functions must end with test in their name.
 is_zero_zero_test() ->

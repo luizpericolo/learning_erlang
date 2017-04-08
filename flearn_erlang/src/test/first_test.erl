@@ -11,7 +11,7 @@
 
 -include_lib("eunit/include/eunit.hrl").
 
--export([mult_test/0, double_test/0, square_test/0, treble_test/0]).
+-export([]).
 
 mult_test() ->
   ?assertEqual(0,first:mult(0,9)),

@@ -11,7 +11,7 @@
 
 -include_lib("eunit/include/eunit.hrl").
 
--export([hypotenuse_test/0,perimeter_test/0,area_test/0]).
+-export([]).
 
 hypotenuse_test() ->
   ?assertEqual(5.0,second:hypotenuse(3,4)),
